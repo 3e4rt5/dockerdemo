@@ -1,0 +1,12 @@
+@import '~@servicetitan/tokens/dist/tokens';
+
+.selectable-card {
+    width: $spacing-8;
+    min-height: $spacing-8;
+    position: relative;
+}
+
+.active-icon {
+    left: -28px;
+    top: -28px;
+}

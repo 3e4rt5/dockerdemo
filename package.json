@@ -1,0 +1,24 @@
+{
+    "name": "root",
+    "version": "0.0.0",
+    "description": "Multi-package web application template",
+    "private": true,
+    "scripts": {
+        "bootstrap": "npx lerna@3 bootstrap --hoist",
+        "prestart": "npm run bootstrap",
+        "start": "startup start",
+        "prebuild": "npm run bootstrap",
+        "build": "startup build",
+        "lint": "startup lint",
+        "test": "startup test"
+    },
+    "devDependencies": {
+        "@servicetitan/startup": "~12.0.0",
+        "@types/classnames": "^2.2.10"
+    },
+    "dependencies": {
+        "@servicetitan/react-ioc": "^9.0.4",
+        "axios": "^0.20.0",
+        "classnames": "^2.2.6"
+    }
+}

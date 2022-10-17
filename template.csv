@@ -1,0 +1,11 @@
+Sourcery Engine Upload Template,,,,,,,
+,,,,,,,
+Notes:,,,,,,,
+"Website and/or Email must be included as populated columns in order to enrich your data. If neither column is included in your file, there will be no enriched data.",,,,,,,
+Feel free to include any additional fields/columns in the file.,,,,,,,
+The order of columns does not matter as long as columns are named properly.,,,,,,,
+Column headers must match below exactly.,,,,,,,
+"Column headers must be the first row of the file, else there will be no enriched data.",,,,,,,
+,,,,,,,
+Example:,,,,,,,
+Website,Email,Company Name,Phone,City,State,Postal Code,Country
